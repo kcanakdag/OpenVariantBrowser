@@ -1,0 +1,17 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'build script for docs'",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^7.1.3"
+  },
+  "dependencies": {
+    "@ovb/adapter-gff3": "workspace:*",
+    "@ovb/core": "workspace:*",
+    "@ovb/renderer": "workspace:*"
+  }
+}
